@@ -2,25 +2,18 @@
     margin: 0;
     padding: 0;
  }
- body { 
-   height: 4500px;
- }
  .navbar {
-     font-family: 'Oswald', sans-serif;
-     letter-spacing: 0.5px;
-     width: 100%;
-     }
+    background-color: black;
+ }
 
  #mainCarousel .carousel-item {
-    height: 700px;
-    width: 100%;
- }
+      height: 100%;
+      width: 100%;
+   }
  #mainCarousel .carousel-caption {
-    margin-bottom: 280px;
     font-family: 'Oswald', sans-serif;
     text-shadow: 0.5px 0px rgb(4, 75, 156);
-    opacity: 0.5px;
-
+    margin-bottom: 200px;
  }
 
  #productCarousel .carousel-control-prev-icon {
@@ -31,31 +24,81 @@
     margin-left: 120px;
  }
 #text-quality1{
-   background-size: cover;
+   background-size: 120px;
    background-color: rgb(172, 141, 100);
    height: 400px;
 }
 #text-quality2{
-   background-size: cover;
+   background-size: 120px;
    background-color: rgb(51, 60, 70);
    height: 300px;
 }
 #text-quality3{
-   background-size: cover;
+   background-size: 120px;
    background-color: rgb(85, 94, 105);
    height: 300px;
 }
 #text-quality4{
-   background-size: cover;
+   background-size: 120px;
    background-color: rgb(156, 149, 131);
    height: 300px;
 }
 .figure img {
-   width: 150px;
-   height: 145px;
+   width: 90px;
+   height: 70px;
 }
 #testiCarousel {
    width: 100%;
    height: 200px;
    margin-bottom: 30px;
 }
+
+/* Desktop Version */
+@media (min-width: 992px) {
+   .navbar {
+      background-color: transparent;
+      z-index: 2;
+   }
+   .nav-link {
+      margin-left: 10px;
+   }
+   /* Efek Garis Underline */
+   .nav-link:hover::after {
+      content: '';
+      display: block;
+      border-bottom: 3px solid rgb(35, 198, 209);
+      width: 50%;
+      margin: auto;
+      padding-bottom: 5px;
+      margin-bottom: -8px;
+   }
+   #mainCarousel .carousel-item {
+      height: 650px;
+      width: 100%;
+   }
+   #mainCarousel .carousel-caption {
+      margin-bottom: 240px;
+      font-family: 'Oswald', sans-serif;
+      text-shadow: 0.5px 0px rgb(4, 75, 156);
+  
+   }
+   /* Bentuk Tombol Jadi Bundar */
+   .nav-item .btn {
+      margin-left: 10px;
+      border-radius: 40px;
+   }
+   /* Navbar Jadi ke transparant */
+   #mainCarousel {
+   margin-top: -80px;
+   }
+
+.figure img {
+   width: 150px;
+   height: 145px;
+}
+ 
+}
+
+
+
+
