@@ -1,0 +1,23 @@
+/* Versi Mobile And Universal */
+#gcaption {
+    padding-bottom: 200px;
+}
+
+
+
+
+
+
+@media (min-width: 992px) {
+ /* Navbar Jadi ke transparant */
+ #gcarousel{
+    margin-top: -80px;
+    }
+
+#gcarousel .carousel-item {
+    height: 600px;
+    }
+#gcaption {
+    padding-bottom: 250px;
+ }
+}

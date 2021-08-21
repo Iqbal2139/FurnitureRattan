@@ -1,0 +1,35 @@
+/* Android and Universal */
+.jumbotron{
+    background-size: cover;
+    height: 400px;
+}
+.jumbotron .container {
+    padding-top: 120px;
+    text-shadow: 1px 1px black;
+    padding-left: 50px;
+}
+#img-f1 {
+    margin-top: -70px;
+}
+#img-f2{
+    margin-top: 15px;
+}
+
+/* Windows */
+@media (min-width: 992px) { 
+
+    .jumbotron{
+        background-size: cover;
+        height: 600px;
+        margin-top: -80px;
+    }
+    .jumbotron .container {
+        padding-top: 200px;
+    }
+    #img-f1 {
+        margin-top: -130px;
+    }
+    #img-f2{
+        margin-top: 15px;
+    }
+}

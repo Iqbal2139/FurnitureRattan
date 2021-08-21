@@ -58,7 +58,7 @@
         </div>
       </div>
   </div>
-  {{-- Best Product Section --}}
+  {{-- Our Collection --}}
   <div class="container">
         <div class="row mt-4">
           <div class="col-md text-center">
@@ -217,7 +217,7 @@
           <h1>TESTIMONIAL</h1>
         </div>
   </div>
-  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div id="carouselTESTI" class="carousel slide" data-bs-ride="carousel">
     <div id="testiCarousel" class="carousel-inner">
       <div class="carousel-item active">
        <div class="row justify-content-center mt-5 mb-5">
@@ -244,11 +244,11 @@
         </div>
       </div>
     </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselTESTI" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselTESTI" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>

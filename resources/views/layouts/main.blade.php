@@ -8,6 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     {{-- CSS --}}
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/aboutstyle.css">
+    <link rel="stylesheet" href="css/gallerystyle.css">
     {{-- Icon --}}
     <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css">
     {{-- Font --}}
@@ -27,7 +29,7 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">HOME</a>
+          <a class="nav-link" aria-current="page" href="/">HOME</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/about">ABOUT</a>
